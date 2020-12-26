@@ -1,0 +1,304 @@
+
+
+
+body { font-family: Helvetica,Tahoma; position: relative;}
+
+#contrainer{ width: 100%; background: #6ED0B6;}
+@font-face{
+	src: url( "../font/Hero-Bold.otf");
+	font-family: chinh;
+}
+
+@font-face{
+	src: url( "../font/Subscribe.ttf");
+	font-family: tieude;
+}
+
+
+.khungbao{
+	width: 100%;
+	overflow: hidden;
+}
+
+.logo{
+	transition: all 0.25s;
+}
+.logo:hover{
+	width: 150px;
+}
+
+.bg-custom {
+    background-image: url("../img/menu.jpg");
+	background-size: cover;
+}
+
+.navbar-dark .navbar-toggler{
+	border: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:aliceblue !important;
+    padding: 0px 30px 0px 30px  !important;
+}
+
+.nav-link{
+	font-family: chinh;
+    text-align: center !important;
+	transition: all 0.25s;
+}
+
+.nav-link:hover{
+	font-size: 1.1em;
+}
+
+
+.banner{
+	overflow: hidden;
+}
+.bannerdai{
+	background-image: url(../img/banner-web.jpg);
+	background-size:cover;
+	background-position: center;
+}
+
+.getittext{
+	text-align: center!important;
+}
+
+.imgapp{ 
+	width: 100%;
+	transition: 0.25s all;
+}
+
+.appimg{
+	position: relative;
+	z-index: 50;
+}
+
+.textgetit{
+	padding-top: 2%;
+	text-align: center;
+	margin-bottom: 2%;
+	font-size: 4vw;
+	font-family: tieude;
+	color:#ffc500;
+	
+}
+
+.getitapp{
+	padding-bottom: 5%;;
+}
+
+.canhgiuaapp{
+	display: flex; justify-content: center; align-items: center;
+}
+
+#khungnoidung{
+	background-image: url("../Monkey/img/cam.jpg");
+	background-size:cover;
+}
+
+.leftleft{ 
+	background-image: url( "../img/eventne.jpg");
+	background-size: cover;
+	background-position: right;
+	height: 40vw; }
+
+.rightright{ 
+	background-image: url( "../img/camne.jpg");
+	background-size: cover;
+	background-position: right;
+	height: 40vw; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.eventtop{
+	margin-top: 20px;
+	color: #FFFFFF !important;
+	font-family: tieude;
+	font-size: 5vw;
+	text-align: center;
+}
+
+.eventtop2{
+	color: #FFFFFF !important;
+	text-align: center;
+	font-size: 3vw;
+	font-family: chinh;
+}
+.nut1{
+	width: 15vw;
+	height: 3vw;
+    border-radius: 5em;;
+    border: none;
+	font-size: 1.5vw;
+	font-family: tieude;
+	letter-spacing: 0.2em;
+	transition:  all 0.25s;
+	background: rgba(255,255,255,1.00);
+	animation: ngang 4s infinite linear ;
+}
+
+.nut1:hover{
+	transform: scale(1.2);
+	border: rgba(255,255,255,1.00) solid 2px;
+	background-color: rgba(255,255,255,0.00);
+	color: aliceblue;
+	cursor: pointer;
+	width: 20vw;
+}
+
+
+.nutne{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5%;
+}
+
+.nenabout{
+	background-image: url("../img/bg.png");
+	background-size: cover;
+}
+
+.conkhi{
+	max-width: 55%;
+	min-width:50px;
+	width:75%;
+	animation: doc 4s infinite linear ;
+}
+
+#hinhconkhi{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.row2{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.baotraicay, .baokhungchu{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 100%;
+	min-width: 500px;
+}
+
+.khungchu{
+	max-width: 60%;
+	min-width:50px;
+	width:88%;
+}
+
+.tieudeabout{
+	font-family: tieude;
+	color: aliceblue;
+	font-size: 5vw;
+	text-align: center;
+	padding-top: 3vw;
+}
+.rowbotton{
+	padding-bottom: 3vw;
+}
+
+
+
+@keyframes ngang{
+	0%{transform: translate(10px)}
+	50%{transform: translate(-10px)}
+	100%{transform: translate(10px)}
+}
+
+@keyframes doc{
+	0%{transform: translateY(20px)}
+	50%{transform: translateY(-20px)}
+	100%{transform: translateY(20px)}
+}
+
+.row3{
+	background-image: url("../img/newnew.png");
+	background-size: cover;
+}
+
+.iconapp{
+	width: 100%;
+	min-width: 80px;
+	max-width: 30px;
+}
+
+.imgapp:hover{
+	transform: scale(1.2);
+}
+
+
+.canhgiua{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.textappicon{
+	text-align: justify;
+	font-family: chinh;
+	font-size: 1vw;
+	max-width: 50px;
+	min-width: 80px;
+	
+}
+
+.khungicontrang{
+	background-image: url("../img/newnew.png");
+    background-size: cover;
+	width: 75%;
+	border-radius: 10px;
+	margin-bottom: 4vw;
+}
+
+.rowpaddingtop{
+	padding-top: 10%;
+}
+
+.banggame{
+	width: 50%;
+	padding-bottom: 5%;
+	max-width: 1000px;
+	min-width: 400px;
+}
+
+.canhgiuavideo{
+	padding-bottom: 5%;
+}
+
+.video{
+	width: 43%;
+    height: 49vh;
+}
+
+.fonttrang{
+	color: aliceblue;
+	font-size: 2vw;
+}
+
+.lienlac{
+	font-family: tieude;
+}
+.paddingtopnho{
+	padding-top: 3%;
+}
+
+.iconlienlac{
+	transition:  all 0.25s;
+}
+
+.iconlienlac:hover{
+	transform: scale(1.2);
+	color: rgba(255,198,0,1.00);
+}
